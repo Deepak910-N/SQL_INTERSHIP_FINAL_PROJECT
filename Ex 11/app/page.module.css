@@ -1,0 +1,78 @@
+/* Container for the main content */
+.mainContainer {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Title styling */
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Subtitle styling */
+.subTitle {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Form container */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input group styling */
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.inputLabel {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Add hover effect on input fields */
+.inputField:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Submit button styling */
+.submitButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
